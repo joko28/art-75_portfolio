@@ -2,25 +2,22 @@
 <html>
 <head>
 
-  <title>JOZEY NGUYEN | HOME</title>
-  <link rel="stylesheet" href="style.less" type="text/css">
-  <script src="three.r95.min.js"></script>
-  <script src="vanta.birds.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-     data-auto-a11y="true">
-   </script>
+    <title>JOZEY NGUYEN | HOME</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="js/three.r95.min.js"></script>
+  <script src="js/vanta.birds.min.js"></script>
 
 </head>
 
-<body style="background-color:#B8DCD1">
-  <div class="container">
+<body>
+  <!--SPAN THROUGH EVERY PAGE-->
+  <div id="interactive"></div>
     <h1>JOZEY NGUYEN</h1>
     <ul>
       <li><a href="indexpage.html" class="effect">HOME</a></li>
       <li id="about"><a href="aboutpage.html" class="effect">ABOUT</a></li>
       <li><a href="portfoliopage.html" class="effect">PORTFOLIO</a></li>
     </ul>
-  </div>
 
     <footer>
       <center>
@@ -33,13 +30,21 @@
 
     <script>
   VANTA.BIRDS({
-    el: "#your-element-selector",
+    el: "#birds",
     mouseControls: true,
-    touchControls: true,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0x6162a,
+  color1: 0xe32d2d,
+  color2: 0x5cbf7,
+  birdSize: 1.40,
+  speedLimit: 8.00,
+  separation: 46.00,
+  alignment: 28.00,
+  cohesion: 21.00
   })
   </script>
 </body>
