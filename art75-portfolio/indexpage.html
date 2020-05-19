@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-  <link rel="stylesheet" href="style.less" type="text/css">
+
   <title>JOZEY NGUYEN | HOME</title>
-  <script src="three.min.js"></script>
-  <script src="vanta.cells.min.js"></script>
+  <link rel="stylesheet" href="style.less" type="text/css">
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.birds.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-     data-auto-a11y="true"></script>
+     data-auto-a11y="true">
+   </script>
+
 </head>
 
-<body style="background-color:#2E7B8C">
-  <div id="interactive"></div>
-
+  <body style="background-color:#3ed9de">
   <div class="container">
     <h1>JOZEY NGUYEN</h1>
     <ul>
@@ -31,17 +32,14 @@
     </footer>
 
     <script>
-  VANTA.CELLS({
-    el: "#interactive",
+  VANTA.BIRDS({
+    el: "#your-element-selector",
     mouseControls: true,
     touchControls: true,
     minHeight: 200.00,
     minWidth: 200.00,
     scale: 1.00,
-    color1: 0x33007d,
-    color2: 0x35f2d0,
-    size: 2.10,
-    speed: 3.50
+    scaleMobile: 1.00
   })
   </script>
 </body>
