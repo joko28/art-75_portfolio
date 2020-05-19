@@ -82,23 +82,10 @@ footer a {
 /* PORTFOLIO PAGE STYLES */
 
 .imagegroup {
-  width:32%;
-  color: #fff;
-  display: inline-block;
-  padding-bottom: 30px;
-  text-align: center;
-  font-style: italic;
   position: relative;
-}
-
-.imagegroup img {
-  display: block;
-  padding-bottom: 8px;
-}
-
-.selected {
-  font-weight: bold;
-  font-style: normal;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay {
@@ -117,7 +104,7 @@ footer a {
 }
 
 .imagegroup:hover .overlay {
-  opacity: 100%;
+  opacity: .8;
 }
 
 .text {
