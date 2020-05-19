@@ -4,18 +4,30 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <meta charset="utf-8"
   <link rel="stylesheet" href="style.less" type="text/css">
-  <script src="three.min.js"></script>
-  <script src="vanta.cells.min.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/vanta.cells.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
      data-auto-a11y="true">
    </script>
 
-<body style="background-color:#2E7B8C">
-  <div id="interactive"></div>
-
-  <title>JOZEY NGUYEN | HOME</title>
+ <style>
+ {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -999;
+}
+ </style>
+ <!--<style>
+    body{
+    background-image: url("images/graph2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ </style>-->
+      <title>JOZEY NGUYEN | HOME</title>
 </head>
-
+<body>
   <div class="container">
     <h1>JOZEY NGUYEN</h1>
     <ul>
@@ -42,6 +54,7 @@
     minHeight: 200.00,
     minWidth: 200.00,
     scale: 1.00,
+    scaleMobile: 1.00,
     color1: 0x33007d,
     color2: 0x35f2d0,
     size: 2.10,
