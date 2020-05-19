@@ -19,17 +19,18 @@
       z-index: -999;
     }
    </style>
-   
+
 
 </head>
 
 <body style="background-color:#B8DCD1">
+  <div id="birds"></div>
   <div class="container">
     <h1>JOZEY NGUYEN</h1>
     <ul>
-      <li><a href="indexpage.html" class="effect">HOME</a></li>
-      <li id="about"><a href="aboutpage.html" class="effect">ABOUT</a></li>
-      <li><a href="portfoliopage.html" class="effect">PORTFOLIO</a></li>
+      <li><a href="indexpage.html" class="effect">HOME</h3></a></li>
+      <li><a href="portfoliopage.html" class="effect">PORTFOLIO</h3></a></li>
+      <li id="about"><a href="aboutpage.html" class="effect">ABOUT</h3></a></li>
     </ul>
   </div>
 
@@ -44,13 +45,21 @@
 
     <script>
   VANTA.BIRDS({
-    el: "#your-element-selector",
+    el: "#birds",
     mouseControls: true,
-    touchControls: true,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0x6162a,
+  color1: 0xe32d2d,
+  color2: 0x5cbf7,
+  birdSize: 1.40,
+  speedLimit: 8.00,
+  separation: 46.00,
+  alignment: 28.00,
+  cohesion: 21.00
   })
   </script>
 </body>
