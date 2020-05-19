@@ -77,6 +77,8 @@ footer a {
 
 .icon {
   padding: 15px;
+  position: absolute;
+  bottom: auto;
 }
 
 /* PORTFOLIO PAGE STYLES */
