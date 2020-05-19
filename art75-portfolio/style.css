@@ -102,7 +102,6 @@ footer a {
 }
 
 .overlay {
-  color: #fff;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -111,7 +110,10 @@ footer a {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: .5s ease;
+  background-color: white;
+  margin-left: 2vw;
+  margin-right: auto;
 }
 
 .imagegroup:hover .overlay {
@@ -122,16 +124,32 @@ footer a {
   color: grey;
   font-size: 30px;
   position: absolute;
-  padding:5px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: 'Unica One', cursive;
   font-stretch: expanded;
 }
-
+.center {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2vw;
+  margin-right: auto;
+  position: relative;
+}
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .footerflex {
   position: relative;
 }
